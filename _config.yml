@@ -1,0 +1,9 @@
+auto: true
+
+markdown: kramdown
+highlighter: true
+paginate: 8
+permalink: /:title
+  
+
+ 
