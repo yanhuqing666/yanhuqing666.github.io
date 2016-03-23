@@ -95,5 +95,5 @@ ps:我这个hp显示器上的螺丝钉居然有10个,而之前我给媳妇换她
 
 
 
-余下可拆卸的零件暂时不知道有什么用，计有：内存条(DDR2  667MHz 2G)，无线网卡(mini_pci,不支持win7),cpu(ntel Pentium M 770 / 2.13 GHz ),cpu风扇，键盘，触摸板,电源适配器等等。
+余下可拆卸的零件暂时不知道有什么用，计有：内存条(DDR2  667MHz 2G)，无线网卡(mini_pci,不支持win7),cpu(ntel Pentium M 770 / 2.13 GHz ),Mobile Intel 915GM Express ，cpu风扇，键盘，触摸板,电源适配器等等。
 
