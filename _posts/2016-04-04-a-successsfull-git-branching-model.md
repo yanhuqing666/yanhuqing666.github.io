@@ -6,8 +6,7 @@ description:  翻译A successful Git branching model, 目的，精读文章，�
 ---    
 
 
-
-英文原文：[A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)
+这是一篇文章的翻译 , 英文原文：[A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)，为什么要做翻译呢？大概有很多理由吧，比如精读文章，比如练习英语，或者练习打字？(maybe)
 
 这篇文章我将介绍一种成功的开发模式，我已经将它引入到我的项目(无论是工作的还是私人的)当中一年多了，而且它非常的成功，我想把它写出来已经有一段时间了，但我一直没有时间像现在这样做一次透彻的讨论。我仅仅讨论分支战略和发行管理的内容，而不涉及到任何项目的细节。    
 本文章以Git 作为我们所有源代码的版本管理工具。  
@@ -25,9 +24,11 @@ Git真正改变了开发者对于合并和分支的思考方式。我是从经�
 工具已经说得够多了，让我们转向开发模型吧。这个我将展示的模型实质上没有更多的东西，就是一系列 每个团队成员必须遵从的程序，以保证进入一个可管理的软件开发流程。  
   
   
-![centr-decentr](/images/gitflow/centr-decentr@2x.png)   
 
 ## 分布式而不是集中式  
+
+![centr-decentr](/images/gitflow/centr-decentr@2x.png)   
+
 我们使用的仓库设置即这种有一个中心“truth”仓库的分支模型工作的很好，注意这个仓库只是被认为是中心的(git是一个分布式版本控制工具(DVCS),其实没有一个这样技术层面上的中心仓库)我们将把这个仓库取名为“origin”这个所有的Git用户都熟悉的名字。 
  
 每个开发者都从origin中拉取或者推送，但是除了中心推拉关系，每个开发者也可能从其它次级团队的点那里拉取修改。举例来说，这对于在一起工作的两个或者更多的关注于一个大的新特性的开发者们来说是非常有用的，可以不必过早地把尚在过程中的工作推送到Origin。在上图中，这里有很多次级团队，如Alice和Bob，Alice和David，以及Clair和Dvaid。  
@@ -241,7 +242,7 @@ $ git branch -d hotfix-1.2.1
 Deleted branch hotfix-1.2.1 (was abbe5d6).
 {% endhighlight %}
 
-### 总结： 
+## 总结： 
 其实对于分支模型这里没有什么真正震惊的新东西，但在我们的项目中文章开头处的大图非常有用.它体现了一个优雅的模型。它容易理解同时使得团队成员开发时有共同关于分支和发布流程的理解。
 
 
