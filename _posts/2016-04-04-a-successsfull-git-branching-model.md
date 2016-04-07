@@ -122,7 +122,7 @@ develop和master
 命名惯例     
 release-*   
 
-Release分支用于准备一个新的产品发行版， 他们允许最后时刻进行一些小细节的修饰（原文：They allow for last-minute dotting of i’s and crossing t’s 。译者注： “dot the i's and cross the t's”被剑桥解释为to pay a great deal of attention to the details of something, especially when you are trying to complete a task 或者你可以看[维基](https://en.wiktionary.org/wiki/dot_the_i's_and_cross_the_t's)的解释).进一步的，它允许次要bug的修改和为了发行而准备的元数据(版本号，生成日期等等)，当在Release分支做完所有的这些工作之后，develop分支将被清空以便于接受下一个大发行版本的特性。 
+Release分支用于准备一个新的产品发行版， 他们允许最后时刻进行一些小细节的修饰（原文：They allow for last-minute dotting of i’s and crossing t’s 。译者注： “dot the i's and cross the t's”被剑桥解释为"to pay a great deal of attention to the details of something, especially when you are trying to complete a task", 或者你可以看[维基](https://en.wiktionary.org/wiki/dot_the_i's_and_cross_the_t's)的解释).进一步的，它允许次要bug的修改和为了发行而准备的元数据(版本号，生成日期等等)，当在Release分支做完所有的这些工作之后，develop分支将被清空以便于接受下一个大发行版本的特性。 
  
 从develop分支生成一个新的release分支的关键时刻取决于当开发(几乎)已经达到新发行版本的期望状态。那时至少所有的那些即将被发布的特性必须及时的合并回develop分支。所有的未来的发行的版本的特性则不需要，它们必须等到它们的release分支产生。  
  
